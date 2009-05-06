@@ -1,13 +1,16 @@
+# TODO: 
+#  metainf.cpp:167: error: 'fopen' is not a member of 'std'
+#  metainf.cpp:174: error: 'fread' is not a member of 'std'
+#  metainf.cpp:196: error: 'fseek' is not a member of 'std'
 Summary:	Neformal is a small Qt/Phonon-based player
 Summary(hu.UTF-8):	Nefomral egy kicsi Qt/Phonon-alapú lejátszó
 Name:		neformal
-Version:	1.0.1
+Version:	3.0.0
 Release:	0.1
 License:	GPL v3
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/neformal/%{name}-%{version}.tar.bz2
-# Source0-md5:	8650a876d948375e770f3c92c4c370a6
-Patch0:		%{name}-icondir.patch
+# Source0-md5:	731a67018559a3f1ef50237b39c404e3
 URL:		http://neformal.sourceforge.net/
 BuildRequires:	QtGui-devel
 BuildRequires:	QtSvg-devel
@@ -31,7 +34,7 @@ a kedvenc könyvtárakról.
 
 %prep
 %setup -q
-%patch0 -p1
+%{__sed} -i 's@\":/icons\/\([^"]*\)@"/usr/share/icons/hicolor/scalable/apps/neformal/\1@' mainwindow.cpp
 
 %build
 qmake-qt4
