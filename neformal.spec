@@ -1,7 +1,3 @@
-# TODO: 
-#  metainf.cpp:167: error: 'fopen' is not a member of 'std'
-#  metainf.cpp:174: error: 'fread' is not a member of 'std'
-#  metainf.cpp:196: error: 'fseek' is not a member of 'std'
 Summary:	Neformal is a small Qt/Phonon-based player
 Summary(hu.UTF-8):	Nefomral egy kicsi Qt/Phonon-alapú lejátszó
 Name:		neformal
