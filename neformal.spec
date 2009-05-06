@@ -35,6 +35,7 @@ a kedvenc könyvtárakról.
 %prep
 %setup -q
 %{__sed} -i 's@\":/icons\/\([^"]*\)@"/usr/share/icons/hicolor/scalable/apps/neformal/\1@' mainwindow.cpp
+%{__sed} -i 's@std::\([^(]*\)@\1@' metainf.cpp
 
 %build
 qmake-qt4
