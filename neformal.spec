@@ -53,6 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog TODO
+%doc AUTHORS ChangeLog NEWS REDME TODO
 %attr(755,root,root) %{_bindir}/%{name}
 %{_iconsdir}/hicolor/scalable/apps/%{name}
