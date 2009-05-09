@@ -1,5 +1,5 @@
 Summary:	Neformal is a small Qt/Phonon-based player
-Summary(hu.UTF-8):	Nefomral egy kicsi Qt/Phonon-alapú lejátszó
+Summary(hu.UTF-8):	Neformal egy kicsi Qt/Phonon-alapú lejátszó
 Name:		neformal
 Version:	3.0.0
 Release:	0.1
