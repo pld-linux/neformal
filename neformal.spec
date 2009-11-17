@@ -1,13 +1,12 @@
-# TODO: doesn't play files
 Summary:	Neformal is a small Qt/Phonon-based player
 Summary(hu.UTF-8):	Neformal egy kicsi Qt/Phonon-alapú lejátszó
 Name:		neformal
-Version:	4.1.0
+Version:	4.2.0
 Release:	0.1
 License:	GPL v3
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/neformal/%{name}-%{version}.tar.bz2
-# Source0-md5:	d01ed784cba4a6c73737a7b65a023523
+# Source0-md5:	ed783e4591c2351e5733bd927bdbf1cb
 URL:		http://neformal.sourceforge.net/
 BuildRequires:	QtGui-devel
 BuildRequires:	QtNetwork-devel
