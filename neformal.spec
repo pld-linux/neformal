@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/neformal/%{name}-%{version}.tar.bz2
 # Source0-md5:	d01ed784cba4a6c73737a7b65a023523
 URL:		http://neformal.sourceforge.net/
 BuildRequires:	QtGui-devel
+BuildRequires:	QtNetwork-devel
 BuildRequires:	QtSvg-devel
 BuildRequires:	libpng-devel
 BuildRequires:	phonon-devel
